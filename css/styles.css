@@ -141,6 +141,11 @@ background: var(--navyblue, #2E2F42);
 margin: 0 auto;
 padding-bottom: 188px;
 padding-top: 188px;
+background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
 }
 
 .hero-titl {
@@ -200,6 +205,26 @@ padding-top: 188px;
 
 .advantages-item {
 width: calc((100% - 72px) / 4);
+}
+
+
+
+.advantages-icons {
+    display: flex;
+        gap: 24px;
+}
+
+.imag-icons {
+    background: var(--cloud, #F4F4FD);
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+}
+
+
+.advantages-item-icons {
+    width: calc((100% - 72px) / 4);
 }
 .advantages-titl {
     color: var(--navyblue, #2E2F42);
@@ -280,6 +305,7 @@ width: calc((100% - 72px) / 4);
 .team-cart {
     padding-top: 32px;
     padding-bottom: 32px;
+
 }
 .team-titl-three {
     color: var(--navyblue, #2E2F42);
@@ -300,6 +326,55 @@ width: calc((100% - 72px) / 4);
         
 }
 
+.team-icons {
+    display: flex;
+    width: 40px;
+    height: 40px;
+border-radius: 50%;
+background-color: var(--iris, #4D5AE5);
+flex-shrink: 0;
+align-items: center;
+justify-content: centr;
+gap: 24px;
+
+
+}
+.tem-imag-icons {
+    flex-shrink: 0;
+    
+    
+}
+
+.customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.customers-titl {
+    color: var(--navyblue, #2E2F42);
+        text-align: center;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 1.11;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+            margin-bottom: 72px;
+}
+.customers-list {
+    display: flex;
+        gap: 24px;
+}
+
+.customers-item {
+    width: calc((100% - 120px) / 6);
+}
+.customers-imag-icons {
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: 1px solid var(--lightslate, #8E8F99);
+    flex-shrink: 0;
+    }
 .footer {
     background: var(--navyblue, #2E2F42);
     padding-top: 100px;
