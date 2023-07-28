@@ -367,11 +367,13 @@ width: calc((100% - 72px) / 4);
     justify-content: center;
     gap: 24px;
 
+
 }
 
 .team-icon-item {
 width: 40px;
 height: 40px;
+
 }
 
 .team-link {
@@ -382,7 +384,7 @@ height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-link:hover {
     background-color: var(--ocean, #404BBF);
@@ -433,10 +435,12 @@ height: 40px;
 }
 .customers-link:hover {
     border-color: var(--ocean, #404BBF);
+    color: var(--ocean, #404BBF);
 }
 
 .customers-link:focus {
     border-color: var(--ocean, #404BBF);
+    color: var(--ocean, #404BBF);
     }
 
 .customers-imag-icons {
@@ -515,6 +519,7 @@ color: var(--cloud, #F4F4FD);
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -539,6 +544,7 @@ color: var(--cloud, #F4F4FD);
     background-color: rgba(46, 47, 66, 0.4);
     top: 0;
     left: 0;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -572,7 +578,7 @@ color: var(--cloud, #F4F4FD);
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--cornflower #E7E9FC);
+    background-color: var(--cornflower, #E7E9FC);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     cursor: pointer;
