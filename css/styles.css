@@ -115,14 +115,14 @@ align-items: center;
     color: var(--ocean, #404BBF);
 }
 
-.raft {
+.current {
     position: relative;
     color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 }
-.raft::after {
+.current::after {
 content: "";
 position: absolute;
 left: 0;
@@ -441,6 +441,7 @@ height: 40px;
 .customers-link:focus {
     border-color: var(--ocean, #404BBF);
     color: var(--ocean, #404BBF);
+    
     }
 
 .customers-imag-icons {
@@ -448,6 +449,15 @@ height: 40px;
     padding: 16px 32px;
     flex-shrink: 0;
     }
+
+/*.customers-link:hover.customers-imag-icons {
+    fill:  #404BBF);
+    color: var(--ocean, #404BBF);
+}
+
+.customers-imag-icons:focus {
+    fill: #404BBF);
+}*/
 
 .footer {
     background: var(--navyblue, #2E2F42);
@@ -601,11 +611,11 @@ color: var(--cloud, #F4F4FD);
 
 }
 
-.modal-imag:hover {
+.modal-close-btn:hover .modal-imag {
     fill: #ffffff;
 }
 
-.modal-imag:focus {
+.modal-close-btn:focus .modal-imag {
     fill: #ffffff;
 }
 /* P O R T F O L I O */
